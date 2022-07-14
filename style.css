@@ -1,0 +1,140 @@
+body {
+
+ 
+background-color: hsl(30, 38%, 92%);
+
+}
+
+
+/*making attribution change to bottom of the page*/
+attribution {
+position: absolute;
+bottom: 0px;
+    }
+
+
+.perfume-image {
+
+     border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 435px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+
+.sqr {
+    width: 290px;
+    height: 435px;
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+   
+    position: absolute;
+    top: 25%;
+    right: 30%;
+}
+
+.paragraph {
+font-size: 14px;
+color: gray;
+font-family: 'Montserrat', sans-serif;
+
+position: absolute;
+    bottom: 300px;
+    right: 470px;
+}
+
+.perfume{
+
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    color: grey;
+    position: absolute;
+    top: 225px;
+    right: 590px;
+}
+
+
+h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 30px;
+    position: absolute;
+    top: 250px;
+    right: 475px;
+    text-align: left;
+
+
+}
+
+
+.price {
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    position: absolute;
+    bottom: 260px;
+    right: 575px;
+    
+
+}
+
+
+
+.cart-button:hover {
+
+    background-color: grey;
+
+}
+
+.atc {
+    font-family: 'Montserrat', sans-serif;
+    bottom: 190px;
+    right: 525px;
+    position: absolute;
+    color: white;
+}
+
+.icon-cart {
+    bottom: 189px;
+    right: 620px;
+    position: absolute;
+
+
+}
+
+.xprice {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    text-decoration-line: hsl(228, 12%, 48%);
+    position: absolute;
+    bottom: 270px;
+    right: 500px;
+}
+
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    width: 250px;
+    height: 50px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 175px;
+    right: 450px;
+    text-align: center;
+    border: none;
+    
+}
+
+.btn:hover{
+    background-color: gray;
+    border: none;
+
+
+}
